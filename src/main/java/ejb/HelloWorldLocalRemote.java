@@ -3,7 +3,7 @@ package ejb;
 import javax.ejb.Stateless;
 
 @Stateless
-public class HelloWorldLocal implements Authorizable {
+public class HelloWorldLocalRemote implements Authorizable, Greeting {
 
      public String authorize(){
     	    return "The user is authorized!";
@@ -12,6 +12,4 @@ public class HelloWorldLocal implements Authorizable {
      public String sayHello(){
          return "Hello World!";
      }
-
-
 }
