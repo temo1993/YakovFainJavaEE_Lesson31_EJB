@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="YakovFainJavaEE_Lesson31_EJB:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="YakovFainJavaEE_Lesson31_EJB-0.1.war">
+      <element id="artifact" artifact-name="YakovFainJavaEE_Lesson31_EJB:war exploded" />
+    </root>
+  </artifact>
+</component>
