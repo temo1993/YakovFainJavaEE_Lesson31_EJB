@@ -4,6 +4,6 @@ import javax.ejb.Remote;
 import java.io.Serializable;
 
 @Remote
-public interface Greeting extends Serializable{
+public interface Greeting{
 	String sayHello();
 }

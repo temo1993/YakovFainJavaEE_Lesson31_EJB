@@ -14,7 +14,7 @@ public class HelloWorldBean {
      * Default constructor. 
      */
     public HelloWorldBean() {
-        // TODO Auto-generated constructor stub
+        //
     }
     
     public String sayHello(){
